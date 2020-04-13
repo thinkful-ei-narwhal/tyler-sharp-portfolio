@@ -42,7 +42,7 @@ function generateContactDiv() {
             <h2>Contact</h2>
             <p><a href="https://github.com/Redact0r" alt="Github link"><b>Github</b></a></p>
             <p><a href="https://www.linkedin.com/in/tyler-sharp-1346a1a7/" alt="Github link"><b>LinkedIn</b></a></p>
-            <p>Feel free to contact me anytime by <a href="mailto:johntylersharp@gmail.com">Email</a></p>
+            <p><a href="mailto:johntylersharp@gmail.com">Email</a></p>
             </div>`;
 }
 
