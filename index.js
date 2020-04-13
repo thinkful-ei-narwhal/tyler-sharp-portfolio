@@ -15,7 +15,7 @@ function generateLandingPage() {
 function generateBioDiv() {
   return  `<div class="bio-div about-me">
             <h2>Passionate, Experienced Professional</h2>
-            <img src="/src/tylerheadshot.png" class="headshot" align="middle" alt="headshot of Tyler Sharp, smiling in a sunny, scenic Atlanta view. Birds are chirping and the nearby Braves stadium can be heard as a distant, dull roar." />
+            <img src="img/tylerheadshot.png" class="headshot" align="middle" alt="headshot of Tyler Sharp, smiling in a sunny, scenic Atlanta view. Birds are chirping and the nearby Braves stadium can be heard as a distant, dull roar." />
             <p>I've been a big fan of tech all my life. I built my first computer at 11 and was Captain in my Robotics Team in high school.</p>
             <p>But I'm a man of many passions, and for the last 7 years I was a theme park Operations Manager for Merlin Entertainments, where I got to work with iconic brands such as LEGOLAND and Madame Tussauds.</p> 
             <p>I traveled the world and lived in Los Angeles, San Francisco, Orlando, and England. I currently am back in my hometown of Atlanta, GA. I still love to travel and have <i>many</i> more countries to check off the list!</p>
@@ -31,7 +31,7 @@ function generatePortfolioDiv() {
             <h2>Portfolio</h2>
             <p>Here are some of the projects I've created during my bootcamp.</p>
             <h3>Quiz App</h3>
-            <a href="https://thinkful-ei-narwhal.github.io/quiz-app-Max-Tyler/" alt="link to Quiz App"><img src="/src/quizCap.png" class="portfolio-pic" alt="screenshot of Quiz App" /> </a>
+            <a href="https://thinkful-ei-narwhal.github.io/quiz-app-Max-Tyler/" alt="link to Quiz App"><img src="img/quizCap.png" class="portfolio-pic" alt="screenshot of Quiz App" /> </a>
             <p><i>HTML, CSS, jQuery</i></p>
             <p>This is a quiz-app that covers knowledge of Brazilian Jiu-Jitsu. The user can submit answers and get a score at the end.</p>
             </div>`;
