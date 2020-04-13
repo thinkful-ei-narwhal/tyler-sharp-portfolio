@@ -1,0 +1,126 @@
+body {
+    padding: 2em;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36pt;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+.landing {
+    margin-top: 50%;
+}
+
+.select {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.select .btn {
+    width: 150px;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12pt;
+    font-weight: 800; 
+    background-color: black;
+    border: white solid 1pt;
+
+}
+
+.select .btn:active, .select .btn:hover, .select .btn:focus {
+    cursor: pointer;
+    background-color: grey;
+    padding: 18px 40px;
+    transform: scale(1.1);
+}
+
+.collapsed {
+    display: none;
+}
+
+.body {
+    width: 100%;
+    background-color: rgba(189, 195, 199, 0.3);
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: rgba(189, 195, 199, 0.3) solid;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.about-me {
+    color: black;
+    margin: 2em 2em;
+    padding: 3em;
+    background-color: rgba(255,255,255, 0.95);
+}
+
+.portfolio-div {
+    text-align: center; 
+}
+
+.contact-div {
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        text-align: left;
+        padding: 1em;
+        background-color: black;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .landing {
+        margin-top: 20%;
+    }
+
+    .select {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .select .btn {
+        width: 150px;
+        padding: auto;
+        margin: 1em 2em 2em 1em;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 12pt;
+        font-weight: 800; 
+        border: white solid 1pt;
+
+}
+
+    .select .btn:active, .select .btn:hover, .select .btn:focus, .select .btn::selection  {
+        padding: 15px;
+        transform: scale(1.1);
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: auto;
+    }
+}
