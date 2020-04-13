@@ -31,7 +31,7 @@ function generatePortfolioDiv() {
             <h2>Portfolio</h2>
             <p>Here are some of the projects I've created during my bootcamp.</p>
             <h3>Quiz App</h3>
-            <a href="https://thinkful-ei-narwhal.github.io/quiz-app-Max-Tyler/" alt="link to Quiz App"><img src="img/quizCap.png" class="portfolio-pic" alt="screenshot of Quiz App" /> </a>
+            <a href="https://thinkful-ei-narwhal.github.io/quiz-app-Max-Tyler/" alt="link to Quiz App"><img src="img/quiz.PNG" class="portfolio-pic" alt="screenshot of Quiz App" /> </a>
             <p><i>HTML, CSS, jQuery</i></p>
             <p>This is a quiz-app that covers knowledge of Brazilian Jiu-Jitsu. The user can submit answers and get a score at the end.</p>
             </div>`;
